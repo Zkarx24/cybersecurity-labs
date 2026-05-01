@@ -151,11 +151,10 @@ La defensa más importante en este caso es evitar que el input del usuario pueda
 
 ## Qué aprendí
 
-- Cómo identificar una posible SQL Injection en un formulario de login.
-- Cómo usar Burp Repeater para modificar una request HTTP.
-- Qué significa una respuesta `302 Found`.
-- Qué significa el header `Location`.
-- Qué significa `Set-Cookie`.
-- Cómo una SQL Injection puede alterar la lógica de autenticación.
-- Por qué `administrator'--` permite omitir la validación de contraseña.
-- Por qué las consultas preparadas son una defensa clave contra SQL Injection.
+- Practiqué el uso de Burp Repeater para modificar manualmente una request HTTP.
+- Modifiqué el parámetro `username` dentro de una petición `POST /login`.
+- Probé el payload `administrator'--` para intentar omitir la validación de contraseña.
+- Observé que la aplicación respondió con `HTTP/2 302 Found`.
+- Interpreté el header `Location: /my-account?id=administrator` como señal de login exitoso.
+- Observé que el servidor entregó una cookie de sesión mediante `Set-Cookie`.
+- Comprendí que el payload funcionó porque cerró la cadena del usuario y comentó el resto de la consulta SQL.
