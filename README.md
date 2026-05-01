@@ -1,25 +1,22 @@
-cat > README.md <<'EOF'
 # Cybersecurity Labs
 
-Este repositorio es un registro personal de los laboratorios que voy realizando mientras avanzo en mi formación en ciberseguridad.
+Este repositorio es mi registro personal de laboratorios prácticos mientras avanzo en ciberseguridad.
 
-Actualmente estaré resolviendo y documentando los ejercicios de **PortSwigger Web Security Academy**, principalmente enfocados en seguridad web, análisis de requests y responses, uso de Burp Suite y comprensión práctica de vulnerabilidades.
+La idea es documentar los ejercicios que voy resolviendo, especialmente de **PortSwigger Web Security Academy**, dejando claro qué probé, qué respuesta obtuve, cómo interpreté el resultado y qué aprendí en el proceso.
 
-La idea no es solo llegar al resultado, sino dejar registro del proceso: qué probé, qué respuesta obtuve, qué significaba técnicamente, cómo se podría prevenir la vulnerabilidad y qué aprendí en cada ejercicio.
+No quiero que esto sea solo una lista de soluciones, sino una bitácora técnica para ordenar mi aprendizaje y construir un portafolio con evidencia real de práctica.
 
-## Mi objetivo
+## Objetivo
 
-Mantener un historial claro de mi avance práctico y construir un portafolio técnico que refleje mi forma de analizar, probar y documentar laboratorios de ciberseguridad web.
-
-No busco que esto sea solo una lista de respuestas, sino una bitácora técnica donde pueda ver mi progreso, corregir errores, mejorar mis explicaciones y demostrar práctica real con herramientas como Burp Suite.
+Mantener un historial claro de mi progreso práctico en seguridad web, usando herramientas como **Burp Suite** para analizar requests, responses, sesiones, cookies, códigos HTTP y vulnerabilidades web.
 
 ## Plataforma principal
 
-Por ahora, el foco principal de este repositorio será:
+Por ahora, el foco principal será:
 
 - **PortSwigger Web Security Academy**
 
-La idea es ir resolviendo sus laboratorios de forma progresiva y documentar cada ejercicio con mi propio análisis.
+Iré resolviendo y documentando sus laboratorios de forma progresiva.
 
 ## Laboratorios documentados
 
@@ -27,11 +24,11 @@ La idea es ir resolviendo sus laboratorios de forma progresiva y documentar cada
 |---|---|---|
 | PortSwigger Web Security Academy | SQL Injection | [Lab 01 - Login Bypass](portswigger-academy/SQLI/Lab1/01-login-bypass.md) |
 
-## Temas que iré documentando
+## Temas que iré trabajando
 
 - SQL Injection
 - Authentication bypass
-- Uso de Burp Suite
+- Burp Suite
 - Burp Repeater
 - Análisis de tráfico HTTP
 - Requests y responses
@@ -52,3 +49,28 @@ cybersecurity-labs/
             ├── 01-login-bypass.md
             └── images/
                 └── response_302_admin.png
+```
+
+## Formato de documentación
+
+Cada laboratorio intentará seguir una estructura similar:
+
+- Objetivo del ejercicio.
+- Plataforma utilizada.
+- Herramientas usadas.
+- Contexto de la vulnerabilidad.
+- Request original.
+- Payload o prueba realizada.
+- Request modificada.
+- Respuesta obtenida.
+- Evidencia con capturas.
+- Explicación técnica.
+- Resultado.
+- Mitigación.
+- Qué aprendí.
+
+## Nota
+
+Este repositorio irá creciendo a medida que complete nuevos laboratorios y mejore mis apuntes.
+
+El foco principal es aprender, practicar, entender la lógica detrás de cada vulnerabilidad y dejar evidencia clara de mi avance técnico.
