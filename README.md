@@ -1,4 +1,4 @@
-
+cat > README.md <<'EOF'
 # Cybersecurity Labs
 
 Este repositorio es un registro personal de los laboratorios que voy realizando mientras avanzo en mi formación en ciberseguridad.
@@ -52,30 +52,3 @@ cybersecurity-labs/
             ├── 01-login-bypass.md
             └── images/
                 └── response_302_admin.png
-```
-
-## Cómo documento cada laboratorio
-
-Cada laboratorio tendrá una estructura similar:
-
-- Objetivo del ejercicio.
-- Herramientas utilizadas.
-- Contexto de la vulnerabilidad.
-- Request original.
-- Payload o prueba realizada.
-- Request modificada.
-- Respuesta obtenida.
-- Evidencia con capturas.
-- Explicación técnica.
-- Resultado.
-- Mitigación.
-- Qué aprendí.
-
-## Nota
-
-Este repositorio irá creciendo a medida que complete nuevos laboratorios de PortSwigger Web Security Academy y mejore mis apuntes.
-
-El foco principal es aprender, practicar, entender la lógica detrás de cada vulnerabilidad y dejar evidencia clara de mi progreso técnico.
-=======
-#
-
