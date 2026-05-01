@@ -1,4 +1,4 @@
-# Cybersecurity Labs
+# ----------- Cybersecurity Labs --------------
 
 Este repositorio es un registro personal de los laboratorios que voy realizando mientras avanzo en mi formación en ciberseguridad.
 
@@ -6,7 +6,7 @@ Actualmente estaré resolviendo y documentando los ejercicios de **PortSwigger W
 
 La idea no es solo llegar al resultado, sino dejar registro del proceso: qué probé, qué respuesta obtuve, qué significaba técnicamente y qué aprendí en cada ejercicio.
 
-## Objetivo
+## Mi objetivo
 
 Mantener un historial claro de mi avance práctico y construir un portafolio técnico que refleje mi forma de analizar, probar y documentar laboratorios de ciberseguridad web.
 
