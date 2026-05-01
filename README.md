@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cybersecurity Labs
 
 Este repositorio es un registro personal de los laboratorios que voy realizando mientras avanzo en mi formación en ciberseguridad.
@@ -75,3 +76,6 @@ Cada laboratorio tendrá una estructura similar:
 Este repositorio irá creciendo a medida que complete nuevos laboratorios de PortSwigger Web Security Academy y mejore mis apuntes.
 
 El foco principal es aprender, practicar, entender la lógica detrás de cada vulnerabilidad y dejar evidencia clara de mi progreso técnico.
+=======
+#
+>>>>>>> 35f1476 (Improve repository structure and SQLi lab documentation)
